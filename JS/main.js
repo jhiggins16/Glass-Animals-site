@@ -10,9 +10,6 @@
 	
 	geolocation();
 }
-var img1;
-var vis1;
-var vis2;
 
 	//Checks the DOM has been loaded before running jquery
 	$(document).ready(function(){ 
