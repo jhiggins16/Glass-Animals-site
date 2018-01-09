@@ -1,7 +1,7 @@
 body{
 	padding:0px;
 	margin:0px;
-	background: url('E:/WebAuth/WebAuthAssignment updated/Glass Animals site/Assets/album-cover.jpg') no-repeat center center fixed;
+	background: url('../Assets/album-cover.jpg') no-repeat center center fixed;
 	background-size: 100% 100%;
 }
 
@@ -83,27 +83,24 @@ p{
 	width:100%;
 	height:100%;
 }
-
-a{
-	float:center;
-}
-
 #applemusiclink{
-	
-	float:center;
+	position:absolute;
+	left:20%;
+	top:35%;
 	
 }
 
 #spotifylink{
-	
-	float:left;
+	position:absolute;
+	left:20%;
+	top:20%;
 	
 }
 
 #primemusiclink{
-	
-	
-
+	position:absolute;
+	left:20%;
+	top:60%;
 }
 
 #homeimg2{
@@ -160,28 +157,28 @@ a{
 	height:40%;
 }
 .memberpics{
-	position:relative;
-	top:4%;
-	height:40%;
-	width:18%;
-	
+	position:absolute;
+	height:30%;
+	width:22%;
 }
 
 #davebayley{
-	float:left;
-	left:3%;
+	left:8%;
+	top:18%;
+	
 }
 #drewmacfarlane{
-	float:left;
-	left:10%;
+	left:40%;
+	top:18%;
 }
 #joeseaward{
-	float:right;
-	right:10%;
+	left:70%;
+	top:18%;
 }	
 #edmundirwinsinger{
-	float:right;
-	right:3%;
+	left:8%;
+	top:55%;
+
 }
 
 figcaption{
@@ -193,8 +190,11 @@ figcaption{
 	position:absolute;
 	display:block;
 	text-align:center;
-	 bottom:0px;
-	 width:90%;
+	top:55%;
+	left:32%;
+	 width:60%;
+	 height:40%;
+	 
 }
 
 #playlistdiv{
@@ -339,5 +339,65 @@ ul{
 	width:40%;
 	height:50%;
 }
+
+.memberpics{
+	position:absolute;
+	height:40%;
+	width:18%;
+}
+
+#davebayley{
+	left:8%;
+	top:18%;
+	
+}
+#drewmacfarlane{
+	left:30%;
+	top:18%;
+}
+#joeseaward{
+	left:55%;
+	top:18%;
+}	
+#edmundirwinsinger{
+	left:75%;
+	top:18%;
+
+}
+
+figcaption{
+	text-align:center;
+	bottom:20px;
+}
+
+#bandinfo{
+	position:absolute;
+	display:block;
+	text-align:center;
+	top:60%;
+	left:8%;
+	 width:90%;
+	 height:35%;
+	 
+}
+
+#applemusiclink{
+	position:absolute;
+	top:10%;
+	left:26%;
+}
+
+#spotifylink{
+	position:absolute;
+	top:30%;
+	left:5%;
+}
+
+#primemusiclink{
+	position:absolute;
+	top:33%;
+	left:75%;
+}
+
 
 }

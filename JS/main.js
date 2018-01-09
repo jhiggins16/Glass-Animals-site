@@ -4,7 +4,7 @@
 	var playlistdata = [];
 	//Makes sure window is loaded before running code
 	window.onload = function(){
-	 //movepics();
+	 
 	 
 	//runs function for geolocation
 	
@@ -14,31 +14,6 @@ var img1;
 var vis1;
 var vis2;
 
-	function movepics(){
-	img1 = document.getElementById("homeimg1");
-	vis1 = true;
-	img1.addEventListener("click", function (){
-	if(vis1 == true){
-		vis1 = false;
-		img1.style.opacity = 0;
-	}else{
-		vis1 = true;
-		img1.style.opacity = 1;
-	}
-	});
-	
-	img2 = document.getElementById("homeimg2");
-	vis2 = true;
-	img2.addEventListener("click", function (){
-	if(vis2 == true){
-		vis2 = false;
-		img2.style.opacity = 0;
-	}else{
-		vis2 = true;
-		img2.style.opacity = 1;
-	}
-	});
-	}
 	//Checks the DOM has been loaded before running jquery
 	$(document).ready(function(){ 
 		console.log("ready");
@@ -182,18 +157,11 @@ var vis2;
 
 			});
 			
-			LatLng = {lat: 52.6, lng: 1.29993};
-			var marker2 = new google.maps.Marker( {
-
-			position:LatLng,
-			title:"Test marker",
-			});
 			//changes colour of marker to blue
-			iconFile = 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png'; 
-			marker2.setIcon(iconFile) 
+			iconFile = 'https://maps.google.com/mapfiles/ms/icons/blue-dot.png'; 
+			markers.setIcon(iconFile) 
 			//puts marker onto map
 			markers.setMap(map);
-			marker2.setMap(map);
 			//gets coordinates of the users position 
 			var position = {
 				lat: position.coords.latitude,
