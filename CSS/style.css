@@ -160,53 +160,53 @@ p{
 .memberpics{
 	position:absolute;
 	height:30%;
-	width:22%;
+	width:25%;
 }
 
 #davebayley{
 	position:absolute;
-	left:8%;
+	left:3%;
 	top:18%;
 	
 }
 #drewmacfarlane{
 	position:absolute;
-	left:40%;
+	left:37%;
 	top:18%;
 }
 #joeseaward{
 	position:absolute;
-	left:70%;
+	left:67%;
 	top:18%;
 }	
 #edmundirwinsinger{
 	position:absolute;
-	left:8%;
+	left:5%;
 	top:55%;
 
 }
 
 #daveCaption{
 	position: absolute;
-	left:10%;
+	left:3%;
 	top:48%;
 }
 
 #drewCaption{
 	position: absolute;
-	left:38%;
+	left:35%;
 	top:48%;
 }
 
 #edmundCaption{
 	position: absolute;
-	left:3%;
+	left:2%;
 	top:86%;
 }
 
 #joeCaption{
 	position: absolute;
-	left:70%;
+	left:67%;
 	top:48%;
 }
 
