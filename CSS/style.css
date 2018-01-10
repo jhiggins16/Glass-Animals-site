@@ -8,7 +8,7 @@ body{
 .header{
 	display: block;
 	font-size: 100%;
-	background-color:none;
+	background-color:transparent;
 	height: 15%;
 	
 }
@@ -136,7 +136,7 @@ p{
 	padding:0px;
 	margin:0px;
 	display:block;
-	background-color:none;	
+	background-color:transparent;	
 	height:100%;
 	width:100%;
 }
@@ -343,7 +343,7 @@ ul{
 	position:absolute;
 	display: block;
 	font-size: 150%;
-	background-color:none;
+	background-color:transparent;
 	height: 15%;
 	left:44%;
 }	
