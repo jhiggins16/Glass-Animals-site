@@ -138,24 +138,24 @@ p{
 #twitterdiv{
 	display:block;
 	position:absolute;
-	top:18%;
-	left:58%;
-	width:40%;
-	height:70%;
+	top:50%;
+	left:4%;
+	width:92%;
+	height:36%;
 }
 
 #facebookpage{
 	width:100%;
-	height:80%;
+	height:65%;
 }
 
 #facebookdiv{
 	display:block;
 	position:absolute;
 	left:4%;
-	top:18%;
-	width:50%;
-	height:80%;
+	top:16%;
+	width:92%;
+	height:50%;
 }
 .memberpics{
 	position:absolute;
@@ -351,6 +351,18 @@ ul{
 	left:20%;
 	width:30%;
 	height:86%;
+}
+
+#twitterpage{
+	width:100%;
+	height:100%;
+	
+}
+
+#facebookpage{
+	width:100%;
+	height:80%;
+	
 }
 
 #map{
