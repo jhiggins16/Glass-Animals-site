@@ -321,6 +321,13 @@ ul{
 }
 
 @media only screen and (min-width: 768px) {
+	
+	body{
+	padding:0px;
+	margin:0px;
+	background: url('../Assets/album-cover.jpg') no-repeat center center fixed;
+	background-size: 100% 100%;
+}
 	#image1{
 		position:absolute;
 		top:20%;
