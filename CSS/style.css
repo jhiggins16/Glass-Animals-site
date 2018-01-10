@@ -159,6 +159,8 @@ p{
 #facebookpage{
 	width:97%;
 	height:63%;
+	border:none;
+	overflow:auto;
 }
 
 #facebookdiv{
