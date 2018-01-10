@@ -306,6 +306,11 @@ ul{
 	height:35%;
 }
 
+#livevid{
+	width:100%;
+	height:100%;
+}
+
 .delete{
 	border:none;
 	color:black;
