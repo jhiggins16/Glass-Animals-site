@@ -87,21 +87,28 @@ p{
 #applemusiclink{
 	position:absolute;
 	left:20%;
-	top:35%;
+	top:45%;
 	
 }
 
 #spotifylink{
 	position:absolute;
 	left:20%;
-	top:20%;
+	top:24%;
 	
 }
 
 #primemusiclink{
 	position:absolute;
 	left:20%;
-	top:60%;
+	top:66%;
+}
+
+#linkinfo{
+	position:absolute;
+	top:14%;
+	font-size:72%;
+	left:3%;
 }
 
 #homeimg2{
