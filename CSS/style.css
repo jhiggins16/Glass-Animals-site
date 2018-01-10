@@ -191,10 +191,11 @@ figcaption{
 	position:absolute;
 	display:block;
 	text-align:center;
-	top:55%;
-	left:32%;
+	top:52%;
+	left:33%;
 	 width:60%;
 	 height:40%;
+	  font-size:60%;
 	 
 }
 
@@ -379,7 +380,7 @@ figcaption{
 	left:8%;
 	 width:90%;
 	 height:35%;
-	 
+	 font-size:120%;
 }
 
 #applemusiclink{
