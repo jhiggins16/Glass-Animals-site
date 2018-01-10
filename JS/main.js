@@ -73,6 +73,9 @@
 				case "Live":
 					window.location = "liveperformances.html";
 					break;
+				case "Demo":
+					window.location = "demo.html";
+					break;
 			}
 		});
 		//code to allow list objects to be draggable
