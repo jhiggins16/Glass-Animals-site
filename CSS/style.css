@@ -164,27 +164,54 @@ p{
 }
 
 #davebayley{
+	position:absolute;
 	left:8%;
 	top:18%;
 	
 }
 #drewmacfarlane{
+	position:absolute;
 	left:40%;
 	top:18%;
 }
 #joeseaward{
+	position:absolute;
 	left:70%;
 	top:18%;
 }	
 #edmundirwinsinger{
+	position:absolute;
 	left:8%;
 	top:55%;
 
 }
 
+#daveCaption{
+	position: absolute;
+	left:10%;
+	top:48%;
+}
+
+#drewCaption{
+	position: absolute;
+	left:38%;
+	top:48%;
+}
+
+#edmundCaption{
+	position: absolute;
+	left:3%;
+	top:86%;
+}
+
+#joeCaption{
+	position: absolute;
+	left:70%;
+	top:48%;
+}
+
 figcaption{
-	text-align:center;
-	bottom:20px;
+	font-size:60%;
 }
 
 #bandinfo{
@@ -265,15 +292,16 @@ ul{
 	top:65%;
 	left:10%;
 	width: 80%;
-	font-size: 120%;
+	font-size: 140%;
 }
 
 .header{
+	position:absolute;
 	display: block;
 	font-size: 150%;
 	background-color:none;
 	height: 15%;
-	
+	left:44%;
 }	
 .container{
 	position:relative;
@@ -368,19 +396,41 @@ ul{
 }
 
 figcaption{
-	text-align:center;
-	bottom:20px;
+	font-size:100%;
 }
 
+#daveCaption{
+	position: absolute;
+	left:11%;
+	top:59%;
+}
+
+#drewCaption{
+	position: absolute;
+	left:33%;
+	top:59%;
+}
+
+#edmundCaption{
+	position: absolute;
+	left:77%;
+	top:59%;
+}
+
+#joeCaption{
+	position: absolute;
+	left:59%;
+	top:59%;
+}
 #bandinfo{
 	position:absolute;
 	display:block;
-	text-align:center;
-	top:60%;
+	text-align:left;
+	top:64%;
 	left:8%;
 	 width:90%;
 	 height:35%;
-	 font-size:120%;
+	 font-size:140%;
 }
 
 #applemusiclink{
