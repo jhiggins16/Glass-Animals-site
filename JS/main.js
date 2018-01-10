@@ -8,7 +8,7 @@
 	 
 	//runs function for geolocation
 	
-	geolocation();
+	//geolocation();
 }
 
 	//Checks the DOM has been loaded before running jquery
