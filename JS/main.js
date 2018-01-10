@@ -32,6 +32,19 @@
 				//localStorage.clear();
 				
 			}
+			
+			var allsongs = ["Life_Itself", "Youth", "Season_2_Episode_3", "Pork_Soda", "Mama's_Gun", "Cane_Shuga", 
+			"The_Other_Side_Of_Paradise", "Take_A_Slice", "Poplar_St", "Agnes", "Flip", "Black_Mambo", "Pools", 
+			"Gooey", "Walla_Walla", "Intruxx", "Hazey", "Toes", "Wyrd", "Cocoa_Hooves", "JDNT", "Lose_Control", 
+			"Love_Lockdown", "Holiest", "Exxus", "Psylla", "Golden_Antlers", "Dust_In_Your_Pocket"];
+			
+			for(j = 0;j < allsongs.length;j++){
+				var startID = allsongs[j];
+				var startName = startID.replace(/\_/g, " ");
+				console.log("added " + startName);
+				$("#draglist").append('<li><div class="songs" id="' + startID + '"> <p class="name">' + startName + ' </p></div></li>');
+			}
+			
 		//triggers when the navigation menu changes
 		$(".navbox").change(function(){
 			//gets the value from the nav menu
@@ -70,9 +83,9 @@
 		cursor: "pointer",
 		helper: "clone",
 		revert: "invalid",
-		
-		
+		scroll: false,
 		});
+	
 		
 		//code that sets the area where the objects can be dropped into
 		$('.songcontainer').droppable({
