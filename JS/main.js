@@ -29,11 +29,11 @@
 					$("#yoursongs").append('<li><div class="addedsongs" id="' + inID + '"> <p class="name">' + inName + ' <button class="delete">X</button></p> </div></li>');
 					
 				}
-				//localStorage.clear();
+				localStorage.clear();
 				
 			}
 			
-			var allsongs = ["Life_Itself", "Youth", "Season_2_Episode_3", "Pork_Soda", "Mama's_Gun", "Cane_Shuga", 
+			var allsongs = ["Life_Itself", "Youth", "Season_2_Episode_3", "Pork_Soda", "Cane_Shuga", 
 			"The_Other_Side_Of_Paradise", "Take_A_Slice", "Poplar_St", "Agnes", "Flip", "Black_Mambo", "Pools", 
 			"Gooey", "Walla_Walla", "Intruxx", "Hazey", "Toes", "Wyrd", "Cocoa_Hooves", "JDNT", "Lose_Control", 
 			"Love_Lockdown", "Holiest", "Exxus", "Psylla", "Golden_Antlers", "Dust_In_Your_Pocket"];
