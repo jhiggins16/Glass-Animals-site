@@ -91,6 +91,11 @@ p{
 	
 }
 
+#apple{
+	width:60%;
+}
+
+
 #spotifylink{
 	position:absolute;
 	left:20%;
@@ -326,6 +331,7 @@ ul{
 	font-size: 140%;
 }
 
+
 .header{
 	position:absolute;
 	display: block;
@@ -393,7 +399,8 @@ ul{
 #facebookpage{
 	width:100%;
 	height:80%;
-	
+	border:none;
+	overflow:auto;
 }
 
 #map{
@@ -486,12 +493,18 @@ figcaption{
 	position:absolute;
 	top:30%;
 	left:5%;
+	width:30%;
+	height:30%;
 }
 
 #primemusiclink{
 	position:absolute;
 	top:33%;
 	left:75%;
+}
+
+#apple{
+	width:60%;
 }
 
 #linkinfo{
