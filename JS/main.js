@@ -76,6 +76,9 @@
 				case "Demo":
 					window.location = "demo.html";
 					break;
+				case "Report":
+					window.location = "report.html";
+					break;
 			}
 		});
 		//code to allow list objects to be draggable
