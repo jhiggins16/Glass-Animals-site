@@ -76,8 +76,8 @@
 				case "Demo":
 					window.location = "demo.html";
 					break;
-				case "Report":
-					window.location = "report.html";
+				case "Log":
+					window.location = "log.html";
 					break;
 			}
 		});
