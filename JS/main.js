@@ -18,7 +18,6 @@
 		//checks if local storage is available and the item playlist is available
 		if(localStorage && localStorage.getItem('playlist')){
 				console.log("We have local storage");
-				console.log(localStorage.getItem('playlist'));
 				//parses JSON string from local storage to make an array to be used to make the playlist
 				playlistdata = JSON.parse(localStorage.getItem('playlist'));
 				//runs through local storage array to add any songs saved in local storage
@@ -29,19 +28,20 @@
 					$("#yoursongs").append('<li><div class="addedsongs" id="' + inID + '"> <p class="name">' + inName + ' <button class="delete">X</button></p> </div></li>');
 					
 				}
-				localStorage.clear();
 				
 			}
 			
+			//array of all songs to be used in playlist creator
 			var allsongs = ["Life_Itself", "Youth", "Season_2_Episode_3", "Pork_Soda", "Cane_Shuga", 
 			"The_Other_Side_Of_Paradise", "Take_A_Slice", "Poplar_St", "Agnes", "Flip", "Black_Mambo", "Pools", 
 			"Gooey", "Walla_Walla", "Intruxx", "Hazey", "Toes", "Wyrd", "Cocoa_Hooves", "JDNT", "Lose_Control", 
 			"Love_Lockdown", "Holiest", "Exxus", "Psylla", "Golden_Antlers", "Dust_In_Your_Pocket"];
 			
+			//list created in jquery to avoid long sections of hard coded code.
 			for(j = 0;j < allsongs.length;j++){
 				var startID = allsongs[j];
 				var startName = startID.replace(/\_/g, " ");
-				console.log("added " + startName);
+				//adds song to list of songs to be used in playlist creator
 				$("#draglist").append('<li><div class="songs" id="' + startID + '"> <p class="name">' + startName + ' </p></div></li>');
 			}
 			
@@ -49,7 +49,7 @@
 		$(".navbox").change(function(){
 			//gets the value from the nav menu
 			choice = $(".navbox").val()
-			//console.log($(".navbox").val());
+			
 			
 			//looks at the value of choice at navigates to the right page 
 			switch(choice){
@@ -100,15 +100,16 @@
 				//gets id of dropped object
 				id = ui.draggable.attr("id");
 				name = id.replace(/\_/g, " ");
-				console.log(name);
+				
 				//adds new item to list of songs 
 				$("#yoursongs").append('<li><div class="addedsongs" id="' + id + '"> <p class="name">' + name + ' <button class="delete">X</button></p> </div></li>');
+				
 				//adds the name of the song to the array of songs 
 				playlistdata.push(name);
-				//console.log(playlistdata);
+				
 				//converts playlist data to string so it can be passed into local storage through JSON
 				var playliststring = JSON.stringify(playlistdata);
-				//console.log(playliststring);
+				
 				//passes the string of songs into local storage
 				localStorage.setItem('playlist',playliststring);
 			}
@@ -117,7 +118,6 @@
 		});
 		//function that runs when the delete button for a song is pressed
 		$(document).on("click", ".addedsongs .name .delete",  function(){
-			//console.log($(this).parent().parent().attr('id')); 
 			//gets ID of item to be deleted 
 			id = $(this).parent().parent().attr('id');
 			name = id.replace(/\_/g, " ");
@@ -209,7 +209,6 @@
 	//goes through all the results from the search and create markers on the map
     	for (var i = 0; i < results.length; i++) {
       	var place = results[i];
-		//console.log(place);
       	createMarker(results[i]);
     	}
   	}
