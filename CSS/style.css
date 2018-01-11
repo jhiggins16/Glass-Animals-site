@@ -1,3 +1,6 @@
+/*
+	Sets the background for the website
+*/
 body{
 	padding:0px;
 	margin:0px;
@@ -5,6 +8,9 @@ body{
 	background-size: 100% 100%;
 }
 
+/*
+	Styles the header at the top of every page
+*/
 .header{
 	display: block;
 	font-size: 100%;
@@ -13,6 +19,9 @@ body{
 	height: 15%;
 	
 }
+/*
+	Sets position of the block that will hold the content for the page
+*/
 .page{
 	position:fixed;
 	left:9%;
@@ -20,7 +29,9 @@ body{
 	width:81.3%;
 	height:84%;
 }
-
+/*
+	Sets position of the block that will hold the report
+*/
 #reportdiv{
 	position:fixed;
 	left:9%;
@@ -29,10 +40,16 @@ body{
 	height:84%;
 	overflow:scroll;
 }
+/*
+	Ensures that p tags fit the full width of their parent elements
+*/
 p{
 	display:block;
 	width:100%;
 }
+/*
+	Sets the position and size of the navigation box for each page
+*/
 .navbox{
 	position:relative;
 	float:left;
@@ -41,10 +58,17 @@ p{
 	height:6%;
 }
 
+/*
+	Centers the page title
+*/
 .pagehead{
 	text-align:center;
 	display:block;
 }
+
+/*
+	Positions the images on the home page
+*/
 #image1{
 	position:absolute;
 	top:15%;
@@ -56,6 +80,9 @@ p{
 	top:44%;
 	left:18%;
 }
+/*
+	Sets the container that allows text to appear over the image
+*/
 .container{
 	position:relative;
 	display:block;
@@ -63,6 +90,9 @@ p{
 	width:60%;
 	height:25%;
 }
+/*
+	Styles the text that will appear on the images
+*/
 .text {
   white-space: nowrap; 
   color: white;
@@ -74,10 +104,17 @@ p{
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+
+/*
+	When the container is hovered over the overlay appears
+*/
 .container:hover .overlay {
   bottom: 0;
   height: 100%;
 }
+/*
+	Styles the overlat that appears when the image is hovered over 
+*/
 .overlay{
   position: absolute;
   bottom: 100%;
@@ -89,11 +126,37 @@ p{
   height:0;
   transition: .5s ease;
 }
+/*
+	Ensures the home page images fit their parent elements fully
+*/
 #homeimg1{
 	display:block;
 	width:100%;
 	height:100%;
 }
+
+#homeimg2{
+	display:block;
+	width:100%;
+	height:100%;
+}
+
+/*
+	Styles the intro paragraph for the page
+*/
+#intro{
+	position:absolute;
+	top:72%;
+	left:10%;
+	width: 80%;
+	padding:0px;
+	margin:0px;
+	font-size: 70%;
+}
+
+/*
+	Styles and positions the hyperlinks for the music streaming sites
+*/
 #applemusiclink{
 	position:absolute;
 	left:20%;
@@ -118,7 +181,9 @@ p{
 	left:20%;
 	top:66%;
 }
-
+/*
+	Positions caption for links
+*/
 #linkinfo{
 	position:absolute;
 	top:14%;
@@ -126,21 +191,9 @@ p{
 	left:3%;
 }
 
-#homeimg2{
-	display:block;
-	width:100%;
-	height:100%;
-}
-
-#intro{
-	position:absolute;
-	top:72%;
-	left:10%;
-	width: 80%;
-	padding:0px;
-	margin:0px;
-	font-size: 70%;
-}
+/*
+	Styles main section that will hold content
+*/
 
 .main{
 	padding:0px;
@@ -150,6 +203,9 @@ p{
 	height:100%;
 	width:100%;
 }
+/*
+	Positions embedded social media pages
+*/
 
 #twitterpage{
 	width:100%;
@@ -181,12 +237,18 @@ p{
 	width:92%;
 	height:50%;
 }
+/*
+	Sets dimensions for images on about page
+*/
 .memberpics{
 	position:absolute;
 	height:30%;
 	width:25%;
 }
 
+/*
+	Positions images of band members
+*/
 #davebayley{
 	position:absolute;
 	left:3%;
@@ -210,6 +272,9 @@ p{
 
 }
 
+/*
+	Positions captions of band member images 
+*/
 #daveCaption{
 	position: absolute;
 	left:3%;
@@ -233,11 +298,16 @@ p{
 	left:67%;
 	top:48%;
 }
-
+/*
+	Sets font size for figcaption
+*/
 figcaption{
 	font-size:60%;
 }
 
+/*
+	Positions bio paragraph about band
+*/
 #bandinfo{
 	position:absolute;
 	display:block;
@@ -250,6 +320,9 @@ figcaption{
 	 
 }
 
+/*
+	positions and styles conatiner div for songs added to playlist
+*/
 #playlistdiv{
 	position:absolute;
 	height:75%;
@@ -263,7 +336,9 @@ figcaption{
 	font-size:60%;
 	border-radius: 25px;
 }
-
+/*
+	Positions and styles list of songs to be used for the playlist
+*/
 #songlist{
 	position:absolute;
 	left:5%;
@@ -274,7 +349,9 @@ figcaption{
 	overflow-y: auto;
 	font-size:70%;
 }
-
+/*
+	Allows list to float to the left of their parent element
+*/
 #draglist{
 	position:absolute;
 	left:5%;
@@ -291,15 +368,32 @@ figcaption{
 	padding: 0;
 }
 
+/*
+	Removes bullet points from list
+*/
 ul{
 	list-style-type: none;
 	
 }
-
+/*
+	Sets position of caption/span in the div that collects the songs added to the playlist
+*/
 #playlist div span{
 	bottom:0;
 }
 
+/*
+	Styles buttons to delete songs from the playlist
+*/
+.delete{
+	border:none;
+	color:black;
+	background-color: Transparent;
+	cursor:pointer;
+}
+/*
+	Positions and styles google maps window
+*/
 #map{
 	position:absolute;
 	top:60%;
@@ -309,6 +403,9 @@ ul{
 	
 }
 
+/*
+	Positions and styles video on Live page
+*/
 #video{
 	position:absolute;
 	top:20%;
@@ -333,12 +430,10 @@ ul{
 	width:70%;
 	height:65%;
 }
-.delete{
-	border:none;
-	color:black;
-	background-color: Transparent;
-	cursor:pointer;
-}
+
+/*
+	Sets different styles when the screen width is more than 768px, this is for tablets and mobiles
+*/
 
 @media only screen and (min-width: 768px) {
 	
