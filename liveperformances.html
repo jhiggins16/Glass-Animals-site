@@ -2,17 +2,26 @@
 <html>
 <head>
 <meta charset="utf-8" />
+<!--Sets viewport-->
+ <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<!--Link stylesheet-->
 <link rel="stylesheet" href="CSS/style.css">
+<!--Link google font-->
 <link href='https://fonts.googleapis.com/css?family=Belleza' rel='stylesheet'>
+<!--Link jQuery libraries-->
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+  <!--Link Google Maps API-->
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCsXFQnNcWYIZu6IA6X9y12Mro8FnRWk08&libraries=places"></script>
+  <!--Link javaScript file-->
  <script src="JS/main.js"></script>
- <meta name="viewport" content="width=device-width,initial-scale=1.0">
+ <!--Sets title-->
  <title>Glass Animals</title>
 </head>
 <body>
+<!--Sets area for content to go-->
 <div class="page">
+<!--Select tag for navigation between pages-->
 <select class="navbox">
   <option value="Live">Live</option>
   <option value="About">About</option>
@@ -23,14 +32,17 @@
   <option value="Demo">Demo</option>
   <option value="Report">Report</option>
 </select> 
+<!--Sets header-->
 <header class="header">
 <h1 class="pagehead">Live</h1>
 </header>
-
+<!--Sets section for content-->
 <section class="main">
+<!--Embeds video of band playing-->
 <div id="video">
 <iframe id="livevid" src="https://www.youtube.com/embed/RP8_2RdA-nc" allowfullscreen></iframe>
 </div>
+<!--Sets up window for google maps-->
 <div id="map"></div>
 </section>
 </div>

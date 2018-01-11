@@ -2,17 +2,26 @@
 <html>
 <head>
 <meta charset="utf-8" />
+<!--Sets viewport-->
  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+ <!--Link stylesheet-->
 <link rel="stylesheet" href="CSS/style.css">
+<!--Link google font-->
 <link href='https://fonts.googleapis.com/css?family=Belleza' rel='stylesheet'>
+<!--Link jQuery libraries-->
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
- <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    <!--Link Google Maps API-->
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCsXFQnNcWYIZu6IA6X9y12Mro8FnRWk08&libraries=places"></script>
-  <script src="JS/main.js"></script>
-  <title>Glass Animals</title>
+  <!--Link javaScript file-->
+ <script src="JS/main.js"></script>
+  <!--Sets title-->
+ <title>Glass Animals</title>
 </head>
 <body>
+<!--Sets area for content to go-->
 <div class="page">
+<!--Select tag for navigation between pages-->
 <select class="navbox">
   <option value="Social media">Social Media</option>
   <option value="About">About</option>
@@ -23,15 +32,18 @@
   <option value="Demo">Demo</option>
   <option value="Report">Report</option>
 </select> 
+<!--Sets header-->
 <header class="header">
 <h1 class="pagehead">Social Media</h1>
 </header>
+<!--Sets section for content-->
 <section class="main">
+<!--Embeds bands facebook page-->
 <div id="facebookdiv">
 <iframe id = "facebookpage" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fglassanimals&tabs=timeline&width=300&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" 
  ></iframe>
 </div>
-
+<!--Embeds bands twitter page-->
 <div id="twitterdiv">
 <a class="twitter-timeline" id="twitterpage" href="https://twitter.com/GlassAnimals?ref_src=twsrc%5Etfw" data-width="100%" data-height="100%"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 </div>
